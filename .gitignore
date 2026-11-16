@@ -1,0 +1,42 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyd
+
+# 构建产物
+build/
+dist/
+wheels/
+*.egg-info
+*.egg-info/
+
+# Python 虚拟环境
+.venv/
+venv/
+env/
+
+# 环境变量与密钥
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# 测试与代码质量缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 机器学习实验产物
+mlruns/
+lightning_logs/
